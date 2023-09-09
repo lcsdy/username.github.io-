@@ -78,7 +78,7 @@
 <body>
 <div class="container">
     <a href="https://www.lcsdy.xyz" target="_blank" id="copy-link">
-        <img src="https://www.lcsdy.xyz/ldybg.png" alt="点击图片复制链接" class="button">
+        <img src="https://www.lcsdy.xyz/ldybg.png" alt="点击图片复制链接" class="button" style="width: 100%; height: auto;">
     </a>
     <br>
     <a href="https://www.lcsdy.xyz" class="text-button">点击进入官网</a>
@@ -88,7 +88,7 @@
     const userAgent = window.navigator.userAgent;
     if (userAgent && (userAgent.includes('MicroMessenger') || userAgent.includes('PA'))) {
         // 在微信或者应用程序内部打开，提示使用浏览器打开
-        const message = '<img src="https://www.lcsdy.xyz/ldybgg.jpg" alt="点击图片提示">';
+        const message = '<img src="https://www.lcsdy.xyz/ldybgg.png" alt="点击图片提示" style="width: 100%; height: auto;">';
         document.body.innerHTML = message;
     }
 
